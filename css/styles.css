@@ -826,7 +826,6 @@ color: rgba(117, 117, 117, 0.5);
 
 .fieldset__wrapper{
   position: relative;
-  margin-bottom: 10px;
 }
 
 .fieldset__icon{
@@ -903,7 +902,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__button:hover,
-.modal__button:focus{
+.modal_is-hidden_button:focus{
   background-color: var(--button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -914,7 +913,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
 /* Страница Портфолио */
-.categories {
+/* .categories {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -953,9 +952,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.projects__wrapper-secondary {
+/* .projects__wrapper-secondary {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -969,15 +968,15 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .projects__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
-.categories__btn:hover,
+/* .categories__btn:hover,
 .categories__btn:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-}
+} */
 
-.spot-no .projects__link {
+/* .spot-no .projects__link {
   text-decoration: none;
 }
 
@@ -1026,7 +1025,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
 }
 
-.wprojects__slidetext{
+.projects__slidetext{
   font-weight: 400;
 font-size: 18px;
 line-height: 1.55;
@@ -1049,4 +1048,4 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .projects__item:hover .projects__slidetext{
   transform: translateY(0);
-}
+} */
