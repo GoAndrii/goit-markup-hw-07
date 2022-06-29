@@ -759,6 +759,18 @@ display: block;
 margin-bottom: 4px;
 }
 
+.backdrop.is-hidden .modal {
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.is-hidden{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .fieldset__input{
   display: block;
 width: 448px;
